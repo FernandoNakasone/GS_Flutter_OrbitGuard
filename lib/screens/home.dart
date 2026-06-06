@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
-  final VoidCallback changeTheme;
 
-  const Home({super.key, required this.changeTheme});
+  const Home({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,9 +17,9 @@ class Home extends StatelessWidget {
               height: 300,
             ),
 
-            const SizedBox(height: 20),
+             SizedBox(height: 20),
 
-            const Padding(
+             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'O OrbitGuard é uma plataforma que utiliza dados de satélites, sensores climáticos e inteligência artificial para prever enchentes, deslizamentos e eventos extremos.',

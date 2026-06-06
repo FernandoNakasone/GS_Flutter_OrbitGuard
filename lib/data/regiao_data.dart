@@ -26,7 +26,7 @@ final List<Regiao> regiaoData = [
     area: 326.20,
     fotoMapa: 'images/peruibe.png',
     nivelRisco: 7,
-    dataUltimoDesastre: DateTime.utc(2026, 06, 02),
+    dataUltimoDesastre: DateTime(2026, 06, 02),
   ),
   Regiao(
     id: 2,
@@ -35,7 +35,7 @@ final List<Regiao> regiaoData = [
     area: 794.57,
     fotoMapa: 'images/campinas.png',
     nivelRisco: 2,
-    dataUltimoDesastre: DateTime.utc(2026, 06, 19),
+    dataUltimoDesastre: DateTime(2026, 06, 19),
   ),
   Regiao(
     id: 3,
@@ -44,7 +44,7 @@ final List<Regiao> regiaoData = [
     area: 731.35,
     fotoMapa: 'images/Pindamonhangaba.png',
     nivelRisco: 4,
-    dataUltimoDesastre: DateTime.utc(2026, 04, 16),
+    dataUltimoDesastre: DateTime(2026, 04, 16),
   ),
   Regiao(
     id: 4,
@@ -53,7 +53,7 @@ final List<Regiao> regiaoData = [
     area: 428.50,
     fotoMapa: 'images/BoaEsperanca.png',
     nivelRisco: 8,
-    dataUltimoDesastre: DateTime.utc(2025, 07, 25),
+    dataUltimoDesastre: DateTime(2025, 07, 25),
   ),
   Regiao(
     id: 5,
@@ -62,7 +62,7 @@ final List<Regiao> regiaoData = [
     area: 542.80,
     fotoMapa: 'images/PousoAlegre.png',
     nivelRisco: 5,
-    dataUltimoDesastre: DateTime.utc(2024, 05, 11),
+    dataUltimoDesastre: DateTime(2024, 05, 11),
   ),
   Regiao(
     id: 6,
@@ -71,6 +71,6 @@ final List<Regiao> regiaoData = [
     area: 133.76,
     fotoMapa: 'images/niteroi.png',
     nivelRisco: 3,
-    dataUltimoDesastre: DateTime.utc(2025, 12, 18),
+    dataUltimoDesastre: DateTime(2025, 12, 18),
   ),
 ];

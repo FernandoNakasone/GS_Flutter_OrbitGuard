@@ -1,13 +1,22 @@
 import 'package:flutter/material.dart';
 
 class BottomAppbar extends StatelessWidget {
-  const BottomAppbar({super.key});
+  final int currentIndex;
+  final Function(int) onTap;
+
+  const BottomAppbar({
+    super.key,
+    required this.currentIndex,
+    required this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
-      type: BottomNavigationBarType.fixed,
-      currentIndex: 0,
+type: BottomNavigationBarType.fixed,
+      currentIndex: currentIndex,
+      onTap: onTap,
+
       items: const [
         BottomNavigationBarItem(
           icon: Icon(Icons.home),
@@ -19,17 +28,17 @@ class BottomAppbar extends StatelessWidget {
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.house_sharp),
-          label: 'Regiões',
+          label: 'Monitoramento',
         ),
-          BottomNavigationBarItem(
+        BottomNavigationBarItem(
           icon: Icon(Icons.article_sharp),
           label: 'Ver registro de região',
         ),
-          BottomNavigationBarItem(
+        BottomNavigationBarItem(
           icon: Icon(Icons.checklist_rounded),
-          label: 'como se preparar',
+          label: 'Como se preparar',
         ),
-          BottomNavigationBarItem(
+        BottomNavigationBarItem(
           icon: Icon(Icons.cell_tower_sharp),
           label: 'Satélites',
         ),

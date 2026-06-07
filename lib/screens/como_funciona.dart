@@ -13,23 +13,23 @@ class _ComoFuncionaState extends State<ComoFunciona> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Padding(
-          padding: EdgeInsets.all(16.0),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                'Cada região tem seu risco analisado em tempo real por meio dos satélites Jason-3 e Jason-CS.',
-                style: TextStyle(fontSize: 24),
-              ),
-              Text(
-                'Por meio da página de monitoramento, é possível visualizar dados sobre cada região, além de exibir cores de acordo com o risco atual da mesma.',
-                style: TextStyle(fontSize: 16),
-              ),
-              Expanded(
-                child: SingleChildScrollView(
-                  child: Column(children: [
+      body: SingleChildScrollView(
+        child: Center(
+          child: Padding(
+            padding: EdgeInsets.all(16.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'Cada região tem seu risco analisado em tempo real por meio dos satélites Jason-3 e Jason-CS.',
+                  style: TextStyle(fontSize: 24),
+                ),
+                Text(
+                  'Por meio da página de monitoramento, é possível visualizar dados sobre cada região, além de exibir cores de acordo com o risco atual da mesma.',
+                  style: TextStyle(fontSize: 16),
+                ),
+                Column(
+                  children: [
                     Padding(
                       padding: EdgeInsetsGeometry.all(26),
                       child: ColorFiltered(
@@ -73,11 +73,10 @@ class _ComoFuncionaState extends State<ComoFunciona> {
                         ),
                       ],
                     ),
-                   ],
-                  )
+                  ],
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),

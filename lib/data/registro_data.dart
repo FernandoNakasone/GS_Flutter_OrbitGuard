@@ -23,7 +23,7 @@ final List<Registro> registroData = [
     tipo: 'Alagamento',
     descricao: 'Alagamento durante chuva forte',
     intensidade: 8,
-    data: DateTime.utc(2026, 05, 26),
+    data: DateTime(2026, 05, 26),
     regiaoId: 1,
     satelite: Satelite.jason3
   ),
@@ -31,7 +31,7 @@ final List<Registro> registroData = [
     tipo: 'Deslizamento de terra',
     descricao: 'Deslizamento durante a noite após dias de chuvas fortes',
     intensidade: 10,
-    data: DateTime.utc(2026, 01, 04),
+    data: DateTime(2026, 01, 04),
     regiaoId: 2,
     satelite: Satelite.jasonCS
   ),
@@ -39,7 +39,7 @@ final List<Registro> registroData = [
     tipo: 'Alagamento',
     descricao: 'Alagamento durante chuva',
     intensidade: 5,
-    data: DateTime.utc(2026, 03, 14),
+    data: DateTime(2026, 03, 14),
     regiaoId: 3,
     satelite: Satelite.jason3
   ),
@@ -47,7 +47,7 @@ final List<Registro> registroData = [
     tipo: 'Deslizamento de terra',
     descricao: 'Deslizamento de terra após chuva fraca',
     intensidade: 3,
-    data: DateTime.utc(2024, 12, 14),
+    data: DateTime(2024, 12, 14),
     regiaoId: 3,
     satelite: Satelite.jasonCS
   ),
@@ -55,7 +55,7 @@ final List<Registro> registroData = [
     tipo: 'Enchente',
     descricao: 'Enchente durante chuva intensa',
     intensidade: 7,
-    data: DateTime.utc(2023, 11, 14),
+    data: DateTime(2023, 11, 14),
     regiaoId: 4,
     satelite: Satelite.jason3
   ),
@@ -63,7 +63,7 @@ final List<Registro> registroData = [
     tipo: 'Deslizamento de terra',
     descricao: 'Deslizamento durante a noite após dias de chuvas fortes',
     intensidade: 10,
-    data: DateTime.utc(2026, 01, 04),
+    data: DateTime(2026, 01, 04),
     regiaoId: 1,
     satelite: Satelite.jasonCS
   ),
@@ -71,7 +71,7 @@ final List<Registro> registroData = [
     tipo: 'Enchente',
     descricao: 'Enchente durante chuva intensa',
     intensidade: 7,
-    data: DateTime.utc(2023, 11, 14),
+    data: DateTime(2023, 11, 14),
     regiaoId: 1,
     satelite: Satelite.jason3
   ),
@@ -79,8 +79,24 @@ final List<Registro> registroData = [
     tipo: 'Enchente',
     descricao: 'Enchente durante chuva intensa',
     intensidade: 7,
-    data: DateTime.utc(2023, 11, 14),
+    data: DateTime(2023, 11, 14),
     regiaoId: 2,
+    satelite: Satelite.jason3
+  ),
+  Registro(
+    tipo: 'Enchente',
+    descricao: 'Enchente durante chuva intensa',
+    intensidade: 7,
+    data: DateTime(2023, 11, 14),
+    regiaoId: 5,
+    satelite: Satelite.jason3
+  ),
+  Registro(
+    tipo: 'Enchente',
+    descricao: 'Enchente durante chuva intensa',
+    intensidade: 7,
+    data: DateTime(2023, 11, 14),
+    regiaoId: 6,
     satelite: Satelite.jason3
   ),
 ];

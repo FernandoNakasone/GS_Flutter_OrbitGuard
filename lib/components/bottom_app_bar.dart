@@ -18,8 +18,14 @@ class BottomAppbar extends StatelessWidget {
       onTap: onTap,
 
       items: const [
-        BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-        BottomNavigationBarItem(icon: Icon(Icons.map), label: 'Como funciona?'),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.home), 
+          label: 'Home'
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.map), 
+          label: 'Como funciona?'
+        ),
         BottomNavigationBarItem(
           icon: Icon(Icons.house_sharp),
           label: 'Monitoramento',

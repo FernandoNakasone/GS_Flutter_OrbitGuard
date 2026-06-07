@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:orbitguard/screens/home.dart';
 import 'package:orbitguard/screens/monitoramento.dart';
 import 'package:orbitguard/screens/como_funciona.dart';
+import 'package:orbitguard/screens/registros.dart';
 import 'package:orbitguard/theme/app_theme.dart';
 import 'package:orbitguard/components/bottom_app_bar.dart';
 import 'package:orbitguard/components/top_app_bar.dart';
@@ -47,6 +48,7 @@ class _MyAppState extends State<MyApp> {
       Home(),
       ComoFunciona(),
       Monitorando(),
+      Registros(),
     ];
   }
 

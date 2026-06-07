@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:orbitguard/components/card_item.dart';
+import 'package:orbitguard/components/card_regiao.dart';
 import 'package:orbitguard/data/regiao_data.dart';
 
 class Monitorando extends StatefulWidget {
@@ -48,13 +48,30 @@ class _MonitorandoState extends State<Monitorando> {
                         width: 200,
                         height: 200,
                       ),
-                      Text('Região: ${regiaoSelecionada?.nome ?? "Nenhuma selecionada"}', style: TextStyle(fontSize: 16)),
-                      Text('Estado: ${regiaoSelecionada?.estado ?? "Nenhuma selecionada"}', style: TextStyle(fontSize: 16)),
-                      Text('Área (m2): ${regiaoSelecionada?.area ?? "Nenhuma selecionada"}', style: TextStyle(fontSize: 16)),
-                      Text('Risco: ${regiaoSelecionada?.nivelRisco ?? "Nenhuma selecionada"}', style: TextStyle(fontSize: 16)),
-                      Text(
-                        'Data do último desastre: ${regiaoSelecionada?.dataUltimoDesastre ?? "Nenhuma selecionada"}',
-                        style: TextStyle(fontSize: 16),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Região: ${regiaoSelecionada?.nome ?? "Nenhuma selecionada"}',
+                            style: TextStyle(fontSize: 16),
+                          ),
+                          Text(
+                            'Estado: ${regiaoSelecionada?.estado ?? "Nenhuma selecionada"}',
+                            style: TextStyle(fontSize: 16),
+                          ),
+                          Text(
+                            'Área (m2): ${regiaoSelecionada?.area ?? "Nenhuma selecionada"}',
+                            style: TextStyle(fontSize: 16),
+                          ),
+                          Text(
+                            'Risco: ${regiaoSelecionada?.nivelRisco ?? "Nenhuma selecionada"}',
+                            style: TextStyle(fontSize: 16),
+                          ),
+                          Text(
+                            'Data do último desastre: ${regiaoSelecionada?.dataUltimoDesastre ?? "Nenhuma selecionada"}',
+                            style: TextStyle(fontSize: 16),
+                          ),
+                        ],
                       ),
                     ],
                   ),
@@ -68,10 +85,10 @@ class _MonitorandoState extends State<Monitorando> {
   }
 
   List<Widget> listCardItem() {
-    List<CardItem> items = [];
+    List<CardRegiao> items = [];
 
     for (var regiao in regiaoData) {
-      var item = CardItem(
+      var item = CardRegiao(
         regiao,
         onTap: () {
           setState(() {

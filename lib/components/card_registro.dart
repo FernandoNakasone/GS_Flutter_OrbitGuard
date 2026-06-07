@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:orbitguard/data/regiao_data.dart';
 import 'package:orbitguard/data/registro_data.dart';
 
 class CardRegistro extends StatelessWidget {
@@ -8,6 +9,8 @@ class CardRegistro extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final regiao = regiaoData.firstWhere((r) => r.id == registro.regiaoId);
+
     return Card(
       child: SizedBox(
         width: 350,
@@ -21,6 +24,10 @@ class CardRegistro extends StatelessWidget {
               Text(
                 '${registro.tipo}',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                'Região: ${regiao.nome}',
+                style: TextStyle(fontSize: 16),
               ),
               Text(
                 'Descrição: ${registro.descricao}',

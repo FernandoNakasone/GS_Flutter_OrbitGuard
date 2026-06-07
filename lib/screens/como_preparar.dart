@@ -176,7 +176,10 @@ class _ComoPrepararState extends State<ComoPreparar> {
                     });
                   },
                 ),
-                Text('Porcentagem de preparação: ${calculaPorcentagem(checked)}%')
+                Text('Porcentagem de preparação: ${calculaPorcentagem(checked)}%'),
+                LinearProgressIndicator(
+                  value: checked / 10,
+                )
               ],
             ),
           ),

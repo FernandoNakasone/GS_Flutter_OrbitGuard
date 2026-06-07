@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:orbitguard/components/card_registro.dart';
-import 'package:orbitguard/data/regiao_data.dart';
 import 'package:orbitguard/data/registro_data.dart';
 import 'package:orbitguard/data/satelite.dart';
 

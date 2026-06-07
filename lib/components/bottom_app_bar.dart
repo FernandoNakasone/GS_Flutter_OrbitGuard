@@ -23,20 +23,20 @@ class BottomAppbar extends StatelessWidget {
           label: 'Home'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.map), 
-          label: 'Como funciona?'
+          icon: Icon(Icons.palette), 
+          label: 'Funcionamento'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.house_sharp),
-          label: 'Monitoramento',
+          icon: Icon(Icons.map_rounded),
+          label: 'Regiões',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.article_sharp),
-          label: 'Ver registro de região',
+          label: 'Registros',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.checklist_rounded),
-          label: 'Como se preparar',
+          label: 'Preparar',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.cell_tower_sharp),

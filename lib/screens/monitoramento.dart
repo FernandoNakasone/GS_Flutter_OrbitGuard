@@ -43,11 +43,16 @@ class _MonitorandoState extends State<Monitorando> {
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
+                      ColorFiltered(colorFilter: ColorFilter.mode(
+                          defineCor(regiaoSelecionada?.nivelRisco ?? -1),
+                          BlendMode.overlay,
+                        ),
+                        child:
                       Image.asset(
                         regiaoSelecionada?.fotoMapa ?? 'images/default.png',
                         width: 200,
                         height: 200,
-                      ),
+                      ),),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -100,4 +105,16 @@ class _MonitorandoState extends State<Monitorando> {
     }
     return items;
   }
+  Color defineCor(nivelRisco) {
+  if (nivelRisco <= 2) {
+    return Color.fromRGBO(0, 255, 0, 0.5);
+  }
+  if (nivelRisco > 2 && nivelRisco <= 5) {
+    return Color.fromRGBO(255, 255, 0, 0.5);
+  }
+  if (nivelRisco > 5 && nivelRisco <= 8) {
+    return Color.fromRGBO(255, 152, 0, 0.5);
+  }
+  return Color.fromRGBO(244, 67, 54, 0.7);
+}
 }

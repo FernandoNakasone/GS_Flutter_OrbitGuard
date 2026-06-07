@@ -13,7 +13,7 @@ class CardRegiao extends StatelessWidget {
       onTap: onTap,
       child: Card(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Image.asset(regiao.fotoMapa, width: 150, height: 150),
             Text(regiao.nome, style: TextStyle(fontSize: (16))),

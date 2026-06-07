@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:orbitguard/screens/como_preparar.dart';
 import 'package:orbitguard/screens/home.dart';
 import 'package:orbitguard/screens/monitoramento.dart';
 import 'package:orbitguard/screens/como_funciona.dart';
@@ -49,6 +50,7 @@ class _MyAppState extends State<MyApp> {
       ComoFunciona(),
       Monitorando(),
       Registros(),
+      ComoPreparar(),
     ];
   }
 

@@ -8,8 +8,6 @@ Widgets reutilizados em todas as telas AppBar, Drawer , BottomNavigationBar(novo
 
 Widgets novos utilizados BottomNavigationBar,SwitchListTile,InkWell,CheckboxListTile,RadioListTile,ColorFiltered,DropdownButton,DropdownMenuItem,LinearProgressIndicator
 
-setState no drawer para alterar do modo claro para o modo escuro e setState para navegação entre as telas 
-
 Estruturas de pasta "images" para imagens, "components" para os Widgets que vão ser utilizados nas paginas (não todos), "data" para guardar classes e carregar uma lista delas, "screens" para as telas do projeto, "theme" para guardar o theme que o aplicativo deve ficar em cada modo, "main" classe onde vai ser responsável pela troca de modo escuro e claro e navegação entre as telas
 
 ## Tela home
@@ -47,8 +45,9 @@ tela com um dropdown para escolher a região, escohendo a região aparecerá car
 
 <img width = "420px" height = "900px" src="images/image_telas/registrosClaro.png">
 <img width = "420px" height = "900px" src="images/image_telas/registrosEscuro.png">
-<img width = "420px" height = "900px" src="images/image_telas/registrosClaroInfo.png">
+<img width = "420px" height = "910px" src="images/image_telas/registrosClaroinfo.png">
 <img width = "420px" height = "900px" src="images/image_telas/registrosEscuroInfo.png">
+
 
 ## Tela Preparar 
 

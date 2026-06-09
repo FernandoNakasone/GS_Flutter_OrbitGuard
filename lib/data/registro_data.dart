@@ -1,4 +1,4 @@
-import 'package:orbitguard/data/satelite.dart';
+import 'package:GeoPrevent/data/satelite.dart';
 
 class Registro {
   final String tipo;

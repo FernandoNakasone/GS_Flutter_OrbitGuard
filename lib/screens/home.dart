@@ -22,7 +22,7 @@ class Home extends StatelessWidget {
              Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'O OrbitGuard é uma plataforma que utiliza dados de satélites, sensores climáticos e inteligência artificial para prever enchentes, deslizamentos e eventos extremos.',
+                'O GeoPrevent é uma plataforma que utiliza dados de satélites, sensores climáticos e inteligência artificial para prever enchentes, deslizamentos e eventos extremos.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 18,

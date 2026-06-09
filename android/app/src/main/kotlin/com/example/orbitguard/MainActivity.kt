@@ -1,4 +1,4 @@
-package com.example.orbitguard
+package com.example.GeoPrevent
 
 import io.flutter.embedding.android.FlutterActivity
 

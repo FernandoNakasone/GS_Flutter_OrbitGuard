@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:orbitguard/components/card_regiao.dart';
-import 'package:orbitguard/data/regiao_data.dart';
+import 'package:GeoPrevent/components/card_regiao.dart';
+import 'package:GeoPrevent/data/regiao_data.dart';
 
 class Monitorando extends StatefulWidget {
   const Monitorando({super.key});

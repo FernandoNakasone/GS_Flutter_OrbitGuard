@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:orbitguard/screens/como_preparar.dart';
-import 'package:orbitguard/screens/home.dart';
-import 'package:orbitguard/screens/monitoramento.dart';
-import 'package:orbitguard/screens/como_funciona.dart';
-import 'package:orbitguard/screens/registros.dart';
-import 'package:orbitguard/screens/satelites.dart';
-import 'package:orbitguard/theme/app_theme.dart';
-import 'package:orbitguard/components/bottom_app_bar.dart';
-import 'package:orbitguard/components/top_app_bar.dart';
-import 'package:orbitguard/components/drawer.dart';
+import 'package:GeoPrevent/screens/como_preparar.dart';
+import 'package:GeoPrevent/screens/home.dart';
+import 'package:GeoPrevent/screens/monitoramento.dart';
+import 'package:GeoPrevent/screens/como_funciona.dart';
+import 'package:GeoPrevent/screens/registros.dart';
+import 'package:GeoPrevent/screens/satelites.dart';
+import 'package:GeoPrevent/theme/app_theme.dart';
+import 'package:GeoPrevent/components/bottom_app_bar.dart';
+import 'package:GeoPrevent/components/top_app_bar.dart';
+import 'package:GeoPrevent/components/drawer.dart';
 
 void main() {
   runApp(const MyApp());

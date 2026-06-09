@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:orbitguard/data/regiao_data.dart';
+import 'package:GeoPrevent/data/regiao_data.dart';
 
 class CardRegiao extends StatelessWidget {
   final Regiao regiao;

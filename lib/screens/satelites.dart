@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:orbitguard/components/card_registro.dart';
-import 'package:orbitguard/data/registro_data.dart';
-import 'package:orbitguard/data/satelite.dart';
+import 'package:GeoPrevent/components/card_registro.dart';
+import 'package:GeoPrevent/data/registro_data.dart';
+import 'package:GeoPrevent/data/satelite.dart';
 
 class Satelites extends StatefulWidget {
   const Satelites({super.key});

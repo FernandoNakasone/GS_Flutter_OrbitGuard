@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:orbitguard/data/regiao_data.dart';
-import 'package:orbitguard/data/registro_data.dart';
+import 'package:GeoPrevent/data/regiao_data.dart';
+import 'package:GeoPrevent/data/registro_data.dart';
 
 class CardRegistro extends StatelessWidget {
   final Registro registro;

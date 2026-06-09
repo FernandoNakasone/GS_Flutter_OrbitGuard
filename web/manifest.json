@@ -1,6 +1,6 @@
 {
-    "name": "orbitguard",
-    "short_name": "orbitguard",
+    "name": "GeoPrevent",
+    "short_name": "GeoPrevent",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -9,7 +9,7 @@ class TopAppBar extends StatelessWidget
   Widget build(BuildContext context) {
     return AppBar(
       backgroundColor: const Color.fromARGB(255, 92, 129, 180),
-      title: const Text('OrbitGuard'),
+      title: const Text('GeoPrevent'),
       centerTitle: true,
     );
   }
